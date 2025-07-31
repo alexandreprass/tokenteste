@@ -1,6 +1,25 @@
 {
-  "name": "Teste Token Brasil",
-  "symbol": "TTBR",
-  "image": "https://example.com/logo.png",
-  "description": "Um token de teste na Devnet"
+  "name": "Meu Token Existente",
+  "symbol": "MTK",
+  "description": "Este é um token criado com UMI.",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Gremio_logo.svg/250px-Gremio_logo.svg.png",
+  "seller_fee_basis_points": 0,
+  "external_url": "https://meuprojeto.com",
+  "attributes": [
+    { "trait_type": "Tipo", "value": "Fungível" }
+  ],
+  "properties": {
+    "creators": [
+      {
+        "address": "77st4i32Uu5xkZQSss1LrdF6JGaME8ZGMEGqJuNyHFxE",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "https://meuserver.com/imagem.png",
+        "type": "image/png"
+      }
+    ]
+  }
 }
